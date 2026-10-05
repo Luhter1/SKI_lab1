@@ -172,7 +172,9 @@ MSE (native    vs opencv) ≈ 0.30
    https://docs.opencv.org/4.x/d4/d86/group__imgproc__filter.html
 3. NumPy Reference: https://numpy.org/doc/stable/
 4. Szeliski R. *Computer Vision: Algorithms and Applications.* — Springer, 2022.
-5. Форсайт Д., Понс Ж. *Компьютерное зрение. Современный подход.* — М.: Вильямс, 2015.
+5. PSNR и SSIM или как работать с изображениями под С. — Хабр, 2011. — URL: https://habr.com/ru/articles/126848/
+6. Фильтр Гаусса на стероидах: секреты ускорения вычислений. — Хабр, 2025. — URL: https://habr.com/ru/companies/smartengines/articles/877082/
+7. Фильтр Гаусса на стероидах: подход на точность вычислений. — Хабр, 2025. — URL: https://habr.com/ru/companies/smartengines/articles/883340/
 
 ---
 
