@@ -24,9 +24,9 @@ def run():
     sizes = [3, 5, 7, 9, 15, 21]
     sigma_ratio = 0.3  # sigma = ratio * size
 
-    results = {"native": [], "separable": [], "opencv": []}
+    results = {"native": [], "opencv": []}
 
-    print(f"{'size':>5} | {'native, ms':>10} | {'separ, ms':>10} | {'opencv, ms':>11} | speedup(native/opencv)")
+    print(f"{'size':>5} | {'native, ms':>10} | {'opencv, ms':>11} | speedup(native/opencv)")
     print("-" * 70)
     for s in sizes:
         sigma = sigma_ratio * s
@@ -43,7 +43,7 @@ def run():
     plt.yscale("log")
     plt.xlabel("Размер ядра, px")
     plt.ylabel("Время, мс (log)")
-    plt.title("Время выполнения фильтра Гаусса (512×512×3)")
+    plt.title("Время выполнения фильтра Гаусса (512*512*3)")
     plt.grid(True, which="both", ls="--", alpha=0.4)
     plt.legend()
     plt.tight_layout()
