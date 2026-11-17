@@ -1,8 +1,3 @@
-"""Обучение свёрточной нейронной сети для классификации CIFAR-10.
-
-Запуск: .venv/bin/python train.py [--epochs N] [--batch-size N]
-Результаты: models/cifar10_cnn.pt, training_history.csv
-"""
 import argparse
 import csv
 import time

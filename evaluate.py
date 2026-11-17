@@ -1,8 +1,3 @@
-"""Оценка качества обученной модели на валидационной и тестовой выборках.
-
-Запуск: .venv/bin/python evaluate.py
-Создаёт: plots/confusion_matrix.png, plots/training_curves.png, metrics.json
-"""
 import csv
 import json
 import os
